@@ -18,5 +18,6 @@ EXPOSE 8080
 ENV user="gana" \
     rollno=23 \
     education="graduate"
+# ENV instruction is used to sets the environment variables, these can be used inside the container.
     
 
