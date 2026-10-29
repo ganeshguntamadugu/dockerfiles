@@ -13,4 +13,4 @@ LABEL Name="Ganesh" \
 # LABEL instruction is used to add metadata and to filter the images
 
 EXPOSE 8080 
-# EXPOSE instruction doesn't actually publish the port
+# EXPOSE instruction doesn't actually publish the port, it is used to let the users know what are the ports this container will open.
