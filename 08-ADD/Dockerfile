@@ -28,3 +28,5 @@ ADD https://raw.githubusercontent.com/ganeshguntamadugu/dockerfiles/refs/heads/m
 # ADD instruction also does same as copy, but it has 2 extra capabilities
 # 1. It can get files from internet
 # 2. It can extract the files into image
+
+RUN chmod +r /usr/share/nginx/html/index.html
