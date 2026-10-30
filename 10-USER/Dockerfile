@@ -8,4 +8,5 @@ USER expense
 # For security you should not run containers using root user, it must be on normal user. Atleast last instruction should USER <some-username>
 
 CMD [ "sleep", "100" ]
+# CMD instruction runs at the time of container creation
 
