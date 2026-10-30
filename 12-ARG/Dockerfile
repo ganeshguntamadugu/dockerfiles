@@ -10,3 +10,4 @@ ENV name=$Name
 RUN echo "My name is $Name, I'm $Age years old"
 
 CMD [ "sleep", "100" ]
+# CMD instruction runs at the time of container creation. CMD can be overridden at runtime
