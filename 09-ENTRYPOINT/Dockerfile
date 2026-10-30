@@ -9,3 +9,4 @@ FROM almalinux
 
 CMD [ "google.com" ]
 ENTRYPOINT [ "ping" ]
+# For better results and best practices. CMD can provide args to ENTRYPOINT, So you can mention default args through CMD and you can override them at run time.
